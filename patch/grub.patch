@@ -1,0 +1,12 @@
+--- /etc/default/grub   2018-01-18 16:07:39.450077324 +0100
++++ grub        2018-01-20 13:35:41.344091676 +0100
+@@ -3,7 +3,8 @@
+ # For full documentation of the options in this file, see:
+ #   info -f grub -n 'Simple configuration'
+ 
+-GRUB_DEFAULT=0
++GRUB_DEFAULT=saved
++GRUB_SAVEDEFAULT=true
+ #GRUB_HIDDEN_TIMEOUT=0
+ GRUB_HIDDEN_TIMEOUT_QUIET=true
+ GRUB_TIMEOUT=10
