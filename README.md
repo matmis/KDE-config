@@ -1,1 +1,1 @@
-#KDE-config
+# KDE-config
